@@ -1,0 +1,21 @@
+.redtitles {
+    font-family:Cascadia Code;
+	color:#E91D63;
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.fadein {
+    animation: fadeIn .5s ease-in;
+}
+
+.fadeout {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

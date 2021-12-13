@@ -1,0 +1,151 @@
+/* Fonts: */
+@font-cons {
+    font-family: Consolas;
+    src: url(Consolas.ttf);
+}
+
+@font-secr {
+    font-family: Secret Code;
+    src: url(secrcode.ttf);
+}
+
+/* Navigation Bar: */
+ul {
+    list-style-type: none;
+    color: #FAF2ED;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: Bahnschrift;
+    text-transform: lowercase;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+	color: orange;
+	transition:transform 0.25s ease;
+    transform: scale(1.25);
+}
+
+li {
+    float: left;
+}
+
+/* Background: */
+body {
+	background-image: url("https://cdn.discordapp.com/attachments/883077235328827457/919040409945141298/unknown.png");
+	height:100%;
+	background-position: top;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+/* Title: */
+.top {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 777px;
+	margin-left: auto;
+	margin-right: auto;
+	height:140px;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Clock: */
+#time {
+	margin: auto;
+	font-family: Secret Code;
+	font-size: 80px;
+	color: orange;
+	letter-spacing: 26px;
+	background-image: url("https://cdn.discordapp.com/attachments/714512187179401216/919478106513899540/nixies_doble.png");
+	padding: 30px;
+}
+
+/* Box Models: */
+.box-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#titlebox {
+    background-color: black;
+    width: 700px;
+    border: 2px solid #7F3300;
+    padding: 50px;
+    margin: auto;
+    margin-top:0px;
+    font-family: Consolas;
+}
+
+/* Video: */
+#video {
+    background-color: black;
+    width: 300px;
+    border: 2px solid #7F3300;
+    padding: 20px;
+    margin: auto;
+    margin-top: 15px;
+	margin-bottom: 30px;
+    font-family: Consolas;
+	color: white;
+}
+  
+
+#blog3 {
+    background-color: black;
+    width: 777px;
+    border: 2px solid #7F3300;
+    padding: 50px;
+    margin: auto;
+    margin-top:15px;
+    font-family: Consolas;
+}
+  
+#blog2 {
+    background-color: black;
+    width: 777px;
+    border: 2px solid #7F3300;
+    padding: 50px;
+    margin: auto;
+    margin-top:15px;
+    font-family: Consolas;
+}
+  
+#blog1 {
+    background-color: black;
+    width: 777px;
+    border: 2px solid #7F3300;
+    padding: 50px;
+    margin: auto;
+    margin-top:15px;
+    font-family: Consolas;
+}
+
+.fadein {
+    animation: fadeIn .5s ease-in;
+}
+
+.fadeout {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
